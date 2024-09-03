@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/farao/ros2_ws/src/turtle_bringup/scripts/dummy_script.py": No such
+  file or directory.
+
+[0m

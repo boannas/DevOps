@@ -1,0 +1,55 @@
+[0.022s] Invoking command in '/home/farao/ros2_ws/build/lab1_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/lab1_interface -- -j20 -l20
+[0.038s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.132s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.147s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.148s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.152s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.200s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.204s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.409s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.735s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.751s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.767s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.767s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.784s] -- Added test 'lint_cmake' to check CMake code style
+[0.784s] -- Added test 'xmllint' to check XML markup files
+[0.786s] -- Configuring done
+[0.801s] -- Generating done
+[0.802s] -- Build files have been written to: /home/farao/ros2_ws/build/lab1_interface
+[0.820s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_generator_c[0m
+[0.826s] [  3%] Built target lab1_interface__cpp
+[0.829s] [ 12%] Built target lab1_interface__rosidl_generator_c
+[0.834s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_introspection_cpp[0m
+[0.836s] [ 12%] Built target ament_cmake_python_copy_lab1_interface
+[0.836s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_c[0m
+[0.837s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_introspection_c[0m
+[0.837s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_fastrtps_cpp[0m
+[0.837s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_cpp[0m
+[0.840s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_fastrtps_c[0m
+[0.845s] [ 22%] Built target lab1_interface__rosidl_typesupport_introspection_cpp
+[0.845s] [ 32%] Built target lab1_interface__rosidl_typesupport_introspection_c
+[0.847s] [ 51%] Built target lab1_interface__rosidl_typesupport_fastrtps_cpp
+[0.847s] [ 51%] Built target lab1_interface__rosidl_typesupport_c
+[0.848s] [ 61%] Built target lab1_interface__rosidl_typesupport_cpp
+[0.852s] [ 70%] Built target lab1_interface__rosidl_typesupport_fastrtps_c
+[0.865s] [ 70%] Built target lab1_interface
+[0.881s] [ 74%] Built target lab1_interface__py
+[0.889s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_generator_py[0m
+[0.899s] [ 80%] Built target lab1_interface__rosidl_generator_py
+[0.905s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_introspection_c__pyext[0m
+[0.907s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_c__pyext[0m
+[0.907s] [35m[1mConsolidate compiler generated dependencies of target lab1_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.914s] [ 87%] Built target lab1_interface__rosidl_typesupport_introspection_c__pyext
+[0.917s] [ 93%] Built target lab1_interface__rosidl_typesupport_c__pyext
+[0.917s] [100%] Built target lab1_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.966s] running egg_info
+[0.966s] writing lab1_interface.egg-info/PKG-INFO
+[0.966s] writing dependency_links to lab1_interface.egg-info/dependency_links.txt
+[0.966s] writing top-level names to lab1_interface.egg-info/top_level.txt
+[0.968s] reading manifest file 'lab1_interface.egg-info/SOURCES.txt'
+[0.968s] writing manifest file 'lab1_interface.egg-info/SOURCES.txt'
+[0.983s] [100%] Built target ament_cmake_python_build_lab1_interface_egg

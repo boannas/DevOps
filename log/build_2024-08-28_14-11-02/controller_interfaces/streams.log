@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/farao/ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/controller_interfaces -- -j20 -l20
+[0.037s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.170s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.192s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.194s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.199s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.313s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.313s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.342s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.343s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.490s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.647s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.647s]   Packages installing interfaces must include
+[0.647s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.647s]   package.xml
+[0.647s] Call Stack (most recent call first):
+[0.647s]   CMakeLists.txt:58 (rosidl_generate_interfaces)
+[0.647s] 
+[0.648s] [0m
+[0.648s] -- Configuring incomplete, errors occurred!
+[0.648s] See also "/home/farao/ros2_ws/build/controller_interfaces/CMakeFiles/CMakeOutput.log".
+[0.652s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
+[0.654s] Invoked command in '/home/farao/ros2_ws/build/controller_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/controller_interfaces -- -j20 -l20

@@ -1,0 +1,61 @@
+[0.016s] Invoking command in '/home/farao/ros2_ws/src/build/turtle_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/src/build/turtle_bringup -- -j20 -l20
+[0.035s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.147s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.166s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.260s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.348s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.442s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.530s] -- Configuring done
+[0.538s] -- Generating done
+[0.539s] -- Build files have been written to: /home/farao/ros2_ws/src/build/turtle_bringup
+[0.561s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[0.570s] [100%] Built target cpp_node_test
+[0.576s] [100%] Built target ament_cmake_python_copy_turtle_bringup
+[0.714s] running egg_info
+[0.714s] writing turtle_bringup.egg-info/PKG-INFO
+[0.714s] writing dependency_links to turtle_bringup.egg-info/dependency_links.txt
+[0.714s] writing top-level names to turtle_bringup.egg-info/top_level.txt
+[0.716s] reading manifest file 'turtle_bringup.egg-info/SOURCES.txt'
+[0.716s] writing manifest file 'turtle_bringup.egg-info/SOURCES.txt'
+[0.735s] [100%] Built target ament_cmake_python_build_turtle_bringup_egg
+[0.744s] Invoked command in '/home/farao/ros2_ws/src/build/turtle_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/src/build/turtle_bringup -- -j20 -l20
+[0.765s] Invoking command in '/home/farao/ros2_ws/src/build/turtle_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farao/ros2_ws/src/build/turtle_bringup
+[0.770s] -- Install configuration: ""
+[0.771s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/environment/pythonpath.sh
+[0.771s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/environment/pythonpath.dsv
+[0.771s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup-0.0.0-py3.10.egg-info
+[0.771s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.771s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup-0.0.0-py3.10.egg-info/PKG-INFO
+[0.771s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup-0.0.0-py3.10.egg-info/top_level.txt
+[0.771s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.771s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup
+[0.771s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup/__init__.py
+[0.771s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup/dummy_module.py
+[0.796s] Listing '/home/farao/ros2_ws/src/install/turtle_bringup/local/lib/python3.10/dist-packages/turtle_bringup'...
+[0.799s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/lib/turtle_bringup/controller.py
+[0.799s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/lib/turtle_bringup/crazy_turtle.py
+[0.799s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/lib/turtle_bringup/crazy_pizza.py
+[0.799s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/lib/turtle_bringup/odom_publisher.py
+[0.799s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/lib/turtle_bringup/cpp_node_test
+[0.800s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup
+[0.800s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/ament_index/resource_index/package_run_dependencies/turtle_bringup
+[0.800s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/share/ament_index/resource_index/parent_prefix_path/turtle_bringup
+[0.800s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.sh
+[0.800s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.dsv
+[0.800s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/environment/path.sh
+[0.800s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/environment/path.dsv
+[0.800s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/local_setup.bash
+[0.800s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/local_setup.sh
+[0.800s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/local_setup.zsh
+[0.801s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/local_setup.dsv
+[0.801s] -- Installing: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/package.dsv
+[0.801s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/ament_index/resource_index/packages/turtle_bringup
+[0.801s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig.cmake
+[0.801s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig-version.cmake
+[0.801s] -- Up-to-date: /home/farao/ros2_ws/src/install/turtle_bringup/share/turtle_bringup/package.xml
+[0.803s] Invoked command in '/home/farao/ros2_ws/src/build/turtle_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farao/ros2_ws/src/build/turtle_bringup

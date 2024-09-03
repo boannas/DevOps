@@ -1,0 +1,24 @@
+[0.019s] Invoking command in '/home/farao/ros2_ws/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/turtlesim_plus_interfaces -- -j20 -l20
+[0.051s] [  1%] Built target turtlesim_plus_interfaces__cpp
+[0.052s] [ 12%] Built target turtlesim_plus_interfaces__rosidl_generator_c
+[0.055s] [ 12%] Built target ament_cmake_python_copy_turtlesim_plus_interfaces
+[0.068s] [ 23%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.070s] [ 34%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_c
+[0.071s] [ 45%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c
+[0.072s] [ 56%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_cpp
+[0.072s] [ 67%] Built target turtlesim_plus_interfaces__rosidl_typesupport_c
+[0.075s] [ 78%] Built target turtlesim_plus_interfaces__rosidl_typesupport_cpp
+[0.093s] [ 78%] Built target turtlesim_plus_interfaces
+[0.113s] [ 80%] Built target turtlesim_plus_interfaces__py
+[0.134s] [ 89%] Built target turtlesim_plus_interfaces__rosidl_generator_py
+[0.148s] [ 92%] Built target turtlesim_plus_interfaces__rosidl_typesupport_c__pyext
+[0.152s] [ 96%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.153s] [100%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.232s] running egg_info
+[0.233s] writing turtlesim_plus_interfaces.egg-info/PKG-INFO
+[0.233s] writing dependency_links to turtlesim_plus_interfaces.egg-info/dependency_links.txt
+[0.233s] writing top-level names to turtlesim_plus_interfaces.egg-info/top_level.txt
+[0.234s] reading manifest file 'turtlesim_plus_interfaces.egg-info/SOURCES.txt'
+[0.235s] writing manifest file 'turtlesim_plus_interfaces.egg-info/SOURCES.txt'
+[0.253s] [100%] Built target ament_cmake_python_build_turtlesim_plus_interfaces_egg
+[0.262s] Invoked command in '/home/farao/ros2_ws/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/turtlesim_plus_interfaces -- -j20 -l20

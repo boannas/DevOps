@@ -1,0 +1,20 @@
+[0.019s] Invoking command in '/home/farao/ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/controller_interfaces -- -j20 -l20
+[0.036s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.186s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.188s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.194s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.301s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.346s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.346s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.347s]   before
+[0.347s] Call Stack (most recent call first):
+[0.347s]   CMakeLists.txt:42 (ament_target_dependencies)
+[0.347s] 
+[0.347s] [0m
+[0.347s] -- Configuring incomplete, errors occurred!
+[0.347s] See also "/home/farao/ros2_ws/build/controller_interfaces/CMakeFiles/CMakeOutput.log".
+[0.351s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
+[0.360s] Invoked command in '/home/farao/ros2_ws/build/controller_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/controller_interfaces -- -j20 -l20

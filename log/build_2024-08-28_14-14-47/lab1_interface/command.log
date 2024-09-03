@@ -1,0 +1,1 @@
+Invoking command in '/home/farao/ros2_ws/build/lab1_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/lab1_interface -- -j20 -l20

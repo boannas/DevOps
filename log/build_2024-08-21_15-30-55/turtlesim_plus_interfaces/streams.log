@@ -1,0 +1,116 @@
+[0.011s] Invoking command in '/home/farao/ros2_ws/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farao/ros2_ws/install/launch_testing_examples:/home/farao/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/farao/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/farao/ros2_ws/install/examples_rclpy_minimal_service:/home/farao/ros2_ws/install/examples_rclpy_minimal_publisher:/home/farao/ros2_ws/install/examples_rclpy_minimal_client:/home/farao/ros2_ws/install/examples_rclpy_minimal_action_server:/home/farao/ros2_ws/install/examples_rclpy_minimal_action_client:/home/farao/ros2_ws/install/examples_rclpy_guard_conditions:/home/farao/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/farao/ros2_ws/src/turtlesim_plus/turtlesim_plus_interfaces -DCMAKE_INSTALL_PREFIX=/home/farao/ros2_ws/install/turtlesim_plus_interfaces
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.153s] -- Detecting CXX compiler ABI info
+[0.206s] -- Detecting CXX compiler ABI info - done
+[0.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.212s] -- Detecting CXX compile features
+[0.213s] -- Detecting CXX compile features - done
+[0.214s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.316s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.366s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.415s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.421s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.651s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.008s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.010s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.034s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.034s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.034s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.054s] -- Found PythonExtra: .so  
+[1.093s] -- Added test 'lint_cmake' to check CMake code style
+[1.094s] -- Added test 'xmllint' to check XML markup files
+[1.098s] -- Configuring done
+[1.118s] -- Generating done
+[1.120s] -- Build files have been written to: /home/farao/ros2_ws/build/turtlesim_plus_interfaces
+[1.132s] Invoked command in '/home/farao/ros2_ws/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farao/ros2_ws/install/launch_testing_examples:/home/farao/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/farao/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/farao/ros2_ws/install/examples_rclpy_minimal_service:/home/farao/ros2_ws/install/examples_rclpy_minimal_publisher:/home/farao/ros2_ws/install/examples_rclpy_minimal_client:/home/farao/ros2_ws/install/examples_rclpy_minimal_action_server:/home/farao/ros2_ws/install/examples_rclpy_minimal_action_client:/home/farao/ros2_ws/install/examples_rclpy_guard_conditions:/home/farao/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/farao/ros2_ws/src/turtlesim_plus/turtlesim_plus_interfaces -DCMAKE_INSTALL_PREFIX=/home/farao/ros2_ws/install/turtlesim_plus_interfaces
+[1.133s] Invoking command in '/home/farao/ros2_ws/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farao/ros2_ws/install/launch_testing_examples:/home/farao/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/farao/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/farao/ros2_ws/install/examples_rclpy_minimal_service:/home/farao/ros2_ws/install/examples_rclpy_minimal_publisher:/home/farao/ros2_ws/install/examples_rclpy_minimal_client:/home/farao/ros2_ws/install/examples_rclpy_minimal_action_server:/home/farao/ros2_ws/install/examples_rclpy_minimal_action_client:/home/farao/ros2_ws/install/examples_rclpy_guard_conditions:/home/farao/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/turtlesim_plus_interfaces -- -j20 -l20
+[1.160s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.164s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.173s] [  3%] Built target ament_cmake_python_copy_turtlesim_plus_interfaces
+[1.295s] running egg_info
+[1.295s] creating turtlesim_plus_interfaces.egg-info
+[1.296s] writing turtlesim_plus_interfaces.egg-info/PKG-INFO
+[1.296s] writing dependency_links to turtlesim_plus_interfaces.egg-info/dependency_links.txt
+[1.296s] writing top-level names to turtlesim_plus_interfaces.egg-info/top_level.txt
+[1.296s] writing manifest file 'turtlesim_plus_interfaces.egg-info/SOURCES.txt'
+[1.297s] reading manifest file 'turtlesim_plus_interfaces.egg-info/SOURCES.txt'
+[1.297s] writing manifest file 'turtlesim_plus_interfaces.egg-info/SOURCES.txt'
+[1.313s] [  3%] Built target ament_cmake_python_build_turtlesim_plus_interfaces_egg
+[1.448s] [  3%] Built target turtlesim_plus_interfaces__cpp
+[1.456s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.456s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.456s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.461s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_plus_interfaces/msg/detail/scanner_data_array__functions.c.o[0m
+[1.461s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_plus_interfaces/srv/detail/give_position__functions.c.o[0m
+[1.462s] [ 14%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_plus_interfaces/msg/detail/scanner_data__functions.c.o[0m
+[1.463s] [ 16%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_plus_interfaces/action/detail/get_data__functions.c.o[0m
+[1.555s] [ 18%] [32m[1mLinking C shared library libturtlesim_plus_interfaces__rosidl_generator_c.so[0m
+[1.581s] [ 18%] Built target turtlesim_plus_interfaces__rosidl_generator_c
+[1.588s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.589s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.589s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.660s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/msg/scanner_data__type_support.cpp.o[0m
+[1.662s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/srv/give_position__type_support.cpp.o[0m
+[1.662s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/msg/scanner_data_array__type_support.cpp.o[0m
+[1.662s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_plus_interfaces/action/get_data__type_support.cpp.o[0m
+[1.695s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_plus_interfaces/msg/detail/scanner_data__type_support.cpp.o[0m
+[1.695s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_plus_interfaces/msg/detail/scanner_data_array__type_support.cpp.o[0m
+[1.697s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_plus_interfaces/srv/detail/give_position__type_support.cpp.o[0m
+[1.697s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_plus_interfaces/action/detail/get_data__type_support.cpp.o[0m
+[1.739s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_plus_interfaces/msg/detail/dds_fastrtps/scanner_data_array__type_support.cpp.o[0m
+[1.739s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_plus_interfaces/action/detail/dds_fastrtps/get_data__type_support.cpp.o[0m
+[1.740s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_plus_interfaces/srv/detail/dds_fastrtps/give_position__type_support.cpp.o[0m
+[1.740s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_plus_interfaces/msg/detail/dds_fastrtps/scanner_data__type_support.cpp.o[0m
+[1.811s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_plus_interfaces/action/get_data__type_support.cpp.o[0m
+[1.811s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_plus_interfaces/msg/scanner_data__type_support.cpp.o[0m
+[1.811s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_plus_interfaces/msg/scanner_data_array__type_support.cpp.o[0m
+[1.811s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_plus_interfaces/srv/give_position__type_support.cpp.o[0m
+[1.868s] [ 54%] [32m[1mLinking CXX shared library libturtlesim_plus_interfaces__rosidl_typesupport_c.so[0m
+[1.900s] [ 54%] Built target turtlesim_plus_interfaces__rosidl_typesupport_c
+[1.963s] [ 56%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_plus_interfaces/srv/detail/give_position__type_support.c.o[0m
+[1.964s] [ 58%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_plus_interfaces/msg/detail/scanner_data__type_support.c.o[0m
+[1.964s] [ 60%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_plus_interfaces/action/detail/get_data__type_support.c.o[0m
+[1.964s] [ 61%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_plus_interfaces/msg/detail/scanner_data_array__type_support.c.o[0m
+[1.970s] [ 63%] [32m[1mLinking CXX shared library libturtlesim_plus_interfaces__rosidl_typesupport_cpp.so[0m
+[1.997s] [ 65%] [32m[1mLinking C shared library libturtlesim_plus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.997s] [ 65%] Built target turtlesim_plus_interfaces__rosidl_typesupport_cpp
+[2.019s] [ 65%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_c
+[2.019s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_plus_interfaces/msg/detail/scanner_data__type_support_c.cpp.o[0m
+[2.021s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_plus_interfaces/msg/detail/scanner_data_array__type_support_c.cpp.o[0m
+[2.022s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_plus_interfaces/action/detail/get_data__type_support_c.cpp.o[0m
+[2.022s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_plus_interfaces/srv/detail/give_position__type_support_c.cpp.o[0m
+[2.166s] [ 74%] [32m[1mLinking CXX shared library libturtlesim_plus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.179s] [ 76%] [32m[1mLinking CXX shared library libturtlesim_plus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.215s] [ 76%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_cpp
+[2.232s] [ 76%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.240s] [ 78%] [32m[1mLinking CXX shared library libturtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.288s] [ 78%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c
+[2.305s] [ 78%] Built target turtlesim_plus_interfaces
+[2.324s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.786s] [ 80%] Built target turtlesim_plus_interfaces__py
+[2.801s] [ 81%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_plus_interfaces/action/_get_data_s.c.o[0m
+[2.801s] [ 83%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_plus_interfaces/msg/_scanner_data_array_s.c.o[0m
+[2.801s] [ 85%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_plus_interfaces/srv/_give_position_s.c.o[0m
+[2.801s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_plus_interfaces/msg/_scanner_data_s.c.o[0m
+[2.902s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim_plus_interfaces/libturtlesim_plus_interfaces__rosidl_generator_py.so[0m
+[2.930s] [ 89%] Built target turtlesim_plus_interfaces__rosidl_generator_py
+[2.944s] [ 90%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim_plus_interfaces/_turtlesim_plus_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.944s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim_plus_interfaces/_turtlesim_plus_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.945s] [ 94%] [32mBuilding C object CMakeFiles/turtlesim_plus_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim_plus_interfaces/_turtlesim_plus_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.021s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim_plus_interfaces/turtlesim_plus_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.022s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim_plus_interfaces/turtlesim_plus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.024s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim_plus_interfaces/turtlesim_plus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.047s] [100%] Built target turtlesim_plus_interfaces__rosidl_typesupport_c__pyext
+[3.050s] [100%] Built target turtlesim_plus_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.051s] [100%] Built target turtlesim_plus_interfaces__rosidl_typesupport_introspection_c__pyext

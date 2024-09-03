@@ -1,0 +1,1 @@
+Invoking command in '/home/farao/ros2_ws/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/turtlesim_plus_interfaces -- -j20 -l20

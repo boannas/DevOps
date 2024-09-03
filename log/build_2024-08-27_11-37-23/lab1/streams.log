@@ -1,0 +1,47 @@
+[0.017s] Invoking command in '/home/farao/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/lab1 -- -j20 -l20
+[0.033s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.162s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.163s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.219s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.220s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.386s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.466s] -- Configuring done
+[0.470s] -- Generating done
+[0.471s] -- Build files have been written to: /home/farao/ros2_ws/build/lab1
+[0.491s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[0.501s] [100%] Built target cpp_node_test
+[0.501s] [100%] Built target ament_cmake_python_copy_lab1
+[0.625s] running egg_info
+[0.626s] writing lab1.egg-info/PKG-INFO
+[0.626s] writing dependency_links to lab1.egg-info/dependency_links.txt
+[0.626s] writing top-level names to lab1.egg-info/top_level.txt
+[0.627s] reading manifest file 'lab1.egg-info/SOURCES.txt'
+[0.627s] writing manifest file 'lab1.egg-info/SOURCES.txt'
+[0.645s] [100%] Built target ament_cmake_python_build_lab1_egg
+[0.653s] Invoked command in '/home/farao/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/lab1 -- -j20 -l20
+[0.678s] Invoking command in '/home/farao/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farao/ros2_ws/build/lab1
+[0.683s] -- Install configuration: ""
+[0.683s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/environment/pythonpath.sh
+[0.683s] -- Installing: /home/farao/ros2_ws/install/lab1/share/lab1/environment/pythonpath.dsv
+[0.684s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info
+[0.684s] -- Installing: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.684s] -- Installing: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/PKG-INFO
+[0.684s] -- Installing: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/top_level.txt
+[0.684s] -- Installing: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.684s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1
+[0.684s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1/__init__.py
+[0.684s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1/dummy_module.py
+[0.707s] Listing '/home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1'...
+[0.710s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/lib/lab1/dummy_script.py
+[0.710s] [31mCMake Error at cmake_install.cmake:70 (file):
+[0.710s]   file INSTALL cannot find
+[0.710s]   "/home/farao/ros2_ws/src/lab1/scripts/noise_generator_script.py": No such
+[0.710s]   file or directory.
+[0.710s] 
+[0.710s] [0m
+[0.711s] Invoked command in '/home/farao/ros2_ws/build/lab1' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farao/ros2_ws/build/lab1

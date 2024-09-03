@@ -1,0 +1,49 @@
+[0.020s] Invoking command in '/home/farao/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/lab1 -- -j20 -l20
+[0.061s] [100%] Built target cpp_node_test
+[0.065s] [100%] Built target ament_cmake_python_copy_lab1
+[0.258s] running egg_info
+[0.260s] writing lab1.egg-info/PKG-INFO
+[0.260s] writing dependency_links to lab1.egg-info/dependency_links.txt
+[0.260s] writing top-level names to lab1.egg-info/top_level.txt
+[0.261s] reading manifest file 'lab1.egg-info/SOURCES.txt'
+[0.261s] writing manifest file 'lab1.egg-info/SOURCES.txt'
+[0.278s] [100%] Built target ament_cmake_python_build_lab1_egg
+[0.290s] Invoked command in '/home/farao/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/lab1 -- -j20 -l20
+[0.308s] Invoking command in '/home/farao/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farao/ros2_ws/build/lab1
+[0.315s] -- Install configuration: ""
+[0.316s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/environment/pythonpath.sh
+[0.316s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/environment/pythonpath.dsv
+[0.316s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info
+[0.316s] -- Installing: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.316s] -- Installing: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/PKG-INFO
+[0.316s] -- Installing: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/top_level.txt
+[0.316s] -- Installing: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.316s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1
+[0.316s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1/__init__.py
+[0.316s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1/dummy_module.py
+[0.341s] Listing '/home/farao/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1'...
+[0.346s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/lib/lab1/dummy_script.py
+[0.346s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/lib/lab1/noise_generator.py
+[0.346s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/lib/lab1/velocity_mux.py
+[0.346s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/lib/lab1/cpp_node_test
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/launch
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/launch/lab1_execute.launch.py
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/launch/simple.launch.py
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/launch/lalalalal.launch.py
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/launch/simple_param.launch.py
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+[0.348s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/environment/path.sh
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/environment/path.dsv
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/local_setup.bash
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/local_setup.sh
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/local_setup.zsh
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/local_setup.dsv
+[0.349s] -- Installing: /home/farao/ros2_ws/install/lab1/share/lab1/package.dsv
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+[0.349s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+[0.350s] -- Up-to-date: /home/farao/ros2_ws/install/lab1/share/lab1/package.xml
+[0.377s] Invoked command in '/home/farao/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farao/ros2_ws/build/lab1

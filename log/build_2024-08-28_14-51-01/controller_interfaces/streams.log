@@ -1,0 +1,248 @@
+[0.020s] Invoking command in '/home/farao/ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/controller_interfaces -- -j20 -l20
+[0.035s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.163s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.164s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.168s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.217s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.243s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.248s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.449s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.830s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.831s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.850s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.850s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.851s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.851s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.868s] -- Found PythonExtra: .so  
+[0.891s] -- Added test 'lint_cmake' to check CMake code style
+[0.892s] -- Added test 'xmllint' to check XML markup files
+[0.894s] -- Configuring done
+[0.910s] -- Generating done
+[0.911s] -- Build files have been written to: /home/farao/ros2_ws/build/controller_interfaces
+[0.928s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.937s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.941s] [  5%] Built target ament_cmake_python_copy_controller_interfaces
+[1.075s] running egg_info
+[1.075s] writing controller_interfaces.egg-info/PKG-INFO
+[1.075s] writing dependency_links to controller_interfaces.egg-info/dependency_links.txt
+[1.075s] writing top-level names to controller_interfaces.egg-info/top_level.txt
+[1.076s] reading manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[1.077s] writing manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[1.093s] [  5%] Built target ament_cmake_python_build_controller_interfaces_egg
+[1.118s] [  5%] Built target controller_interfaces__cpp
+[1.122s] [  7%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/controller_interfaces/srv/detail/set_param__functions.c.o[0m
+[1.123s] [ 10%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/controller_interfaces/srv/detail/set_target__functions.c.o[0m
+[1.123s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.124s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.125s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.162s] [ 20%] [32m[1mLinking C shared library libcontroller_interfaces__rosidl_generator_c.so[0m
+[1.191s] [ 20%] Built target controller_interfaces__rosidl_generator_c
+[1.199s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.200s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.200s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.285s] [ 30%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interfaces/srv/set_param__type_support.cpp.o[0m
+[1.285s] [ 33%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interfaces/srv/set_target__type_support.cpp.o[0m
+[1.299s] [ 35%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/set_target__type_support.cpp.o[0m
+[1.299s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/set_param__type_support.cpp.o[0m
+[1.312s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interfaces/srv/detail/dds_fastrtps/set_target__type_support.cpp.o[0m
+[1.313s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interfaces/srv/detail/dds_fastrtps/set_param__type_support.cpp.o[0m
+[1.370s] [ 48%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interfaces/srv/set_param__type_support.cpp.o[0m
+[1.370s] [ 48%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interfaces/srv/set_target__type_support.cpp.o[0m
+[1.393s] [ 51%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interfaces/srv/detail/set_target__type_support_c.cpp.o[0m
+[1.394s] [ 53%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interfaces/srv/detail/set_param__type_support_c.cpp.o[0m
+[1.395s] [ 56%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interfaces/srv/detail/set_param__type_support.c.o[0m
+[1.395s] [ 58%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interfaces/srv/detail/set_target__type_support.c.o[0m
+[1.398s] [ 61%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_c.so[0m
+[1.429s] [ 64%] [32m[1mLinking C shared library libcontroller_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.431s] [ 64%] Built target controller_interfaces__rosidl_typesupport_c
+[1.434s] [ 66%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_cpp.so[0m
+[1.455s] [ 66%] Built target controller_interfaces__rosidl_typesupport_introspection_c
+[1.469s] [ 66%] Built target controller_interfaces__rosidl_typesupport_cpp
+[1.588s] [ 69%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.602s] [ 71%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.610s] [ 74%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.629s] [ 74%] Built target controller_interfaces__rosidl_typesupport_introspection_cpp
+[1.652s] [ 74%] Built target controller_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.659s] [ 74%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c
+[1.672s] [ 74%] Built target controller_interfaces
+[1.688s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.927s] [ 76%] Built target controller_interfaces__py
+[1.941s] [ 82%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/srv/_set_target_s.c.o[0m
+[1.942s] [ 82%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/srv/_set_param_s.c.o[0m
+[2.000s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so[0m
+[2.028s] [ 84%] Built target controller_interfaces__rosidl_generator_py
+[2.043s] [ 87%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.044s] [ 89%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.046s] [ 92%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.104s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.104s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.106s] [100%] [32m[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.133s] [100%] Built target controller_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.133s] [100%] Built target controller_interfaces__rosidl_typesupport_c__pyext
+[2.136s] [100%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.143s] Invoked command in '/home/farao/ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/controller_interfaces -- -j20 -l20
+[2.206s] Invoking command in '/home/farao/ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farao/ros2_ws/build/controller_interfaces
+[2.212s] -- Install configuration: ""
+[2.212s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/controller_interfaces
+[2.212s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__functions.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__functions.c
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__functions.c
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__struct.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__functions.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__type_support.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__struct.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_param.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_target.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/library_path.sh
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/library_path.dsv
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so
+[2.213s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so" to ""
+[2.213s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.213s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.213s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__rosidl_typesupport_fastrtps_c.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_fastrtps_c.h
+[2.213s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.213s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.213s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.213s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.213s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.213s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__builder.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__traits.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__traits.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__struct.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__builder.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__struct.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_target.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_param.hpp
+[2.214s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.214s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.214s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__rosidl_typesupport_fastrtps_cpp.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_fastrtps_cpp.hpp
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/dds_fastrtps
+[2.214s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.214s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.214s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.214s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.214s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__type_support.c
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_introspection_c.h
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__rosidl_typesupport_introspection_c.h
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.c
+[2.214s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so
+[2.214s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.214s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so
+[2.215s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so" to ""
+[2.215s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.215s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.215s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_introspection_cpp.hpp
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__rosidl_typesupport_introspection_cpp.hpp
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.cpp
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_target__type_support.cpp
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.215s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so
+[2.215s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.215s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.sh
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.dsv
+[2.215s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.215s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/__init__.py
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c
+[2.215s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/__init__.py
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_target.py
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_param.py
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_target_s.c
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_param_s.c
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.216s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.242s] Listing '/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces'...
+[2.242s] Compiling '/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/__init__.py'...
+[2.242s] Listing '/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv'...
+[2.242s] Compiling '/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/__init__.py'...
+[2.242s] Compiling '/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_param.py'...
+[2.242s] Compiling '/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_target.py'...
+[2.245s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.245s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.245s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.245s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.245s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.245s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.245s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so
+[2.245s] -- Set runtime path of "/home/farao/ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so" to ""
+[2.245s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/SetParam.idl
+[2.245s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/SetTarget.idl
+[2.245s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/SetParam.srv
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/SetParam_Request.msg
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/SetParam_Response.msg
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/SetTarget.srv
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/SetTarget_Request.msg
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/SetTarget_Response.msg
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/ament_index/resource_index/package_run_dependencies/controller_interfaces
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/ament_index/resource_index/parent_prefix_path/controller_interfaces
+[2.246s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.sh
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.dsv
+[2.246s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/path.sh
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/path.dsv
+[2.246s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.bash
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.sh
+[2.246s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.zsh
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.dsv
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/package.dsv
+[2.246s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/share/ament_index/resource_index/packages/controller_interfaces
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport.cmake
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cppExport.cmake
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.246s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig.cmake
+[2.247s] -- Up-to-date: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig-version.cmake
+[2.247s] -- Installing: /home/farao/ros2_ws/install/controller_interfaces/share/controller_interfaces/package.xml
+[2.249s] Invoked command in '/home/farao/ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farao/ros2_ws/build/controller_interfaces

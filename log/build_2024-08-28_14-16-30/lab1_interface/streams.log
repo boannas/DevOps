@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/farao/ros2_ws/build/lab1_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/lab1_interface -- -j20 -l20
+[0.049s] [  3%] Built target lab1_interface__cpp
+[0.049s] [ 12%] Built target lab1_interface__rosidl_generator_c
+[0.056s] [ 12%] Built target ament_cmake_python_copy_lab1_interface
+[0.065s] [ 32%] Built target lab1_interface__rosidl_typesupport_introspection_cpp
+[0.065s] [ 32%] Built target lab1_interface__rosidl_typesupport_cpp
+[0.065s] [ 41%] Built target lab1_interface__rosidl_typesupport_fastrtps_cpp
+[0.074s] [ 51%] Built target lab1_interface__rosidl_typesupport_introspection_c
+[0.075s] [ 70%] Built target lab1_interface__rosidl_typesupport_c
+[0.075s] [ 70%] Built target lab1_interface__rosidl_typesupport_fastrtps_c
+[0.092s] [ 70%] Built target lab1_interface
+[0.111s] [ 74%] Built target lab1_interface__py
+[0.131s] [ 80%] Built target lab1_interface__rosidl_generator_py
+[0.150s] [ 87%] Built target lab1_interface__rosidl_typesupport_c__pyext
+[0.152s] [100%] Built target lab1_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.152s] [100%] Built target lab1_interface__rosidl_typesupport_introspection_c__pyext
+[0.204s] running egg_info
+[0.205s] writing lab1_interface.egg-info/PKG-INFO
+[0.205s] writing dependency_links to lab1_interface.egg-info/dependency_links.txt
+[0.205s] writing top-level names to lab1_interface.egg-info/top_level.txt
+[0.206s] reading manifest file 'lab1_interface.egg-info/SOURCES.txt'
+[0.206s] writing manifest file 'lab1_interface.egg-info/SOURCES.txt'
+[0.225s] [100%] Built target ament_cmake_python_build_lab1_interface_egg
+[0.232s] Invoked command in '/home/farao/ros2_ws/build/lab1_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farao/ros2_ws/build/lab1_interface -- -j20 -l20
