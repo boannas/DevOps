@@ -1,0 +1,12 @@
+# ROS-related ignores
+/build
+/devel
+/install
+/log
+/.catkin_tools
+
+# Additional ignores
+*.pyc
+*.swp
+*.log
+.DS_Store
